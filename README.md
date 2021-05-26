@@ -1,13 +1,17 @@
 # GNN-for-classification-and-clustering
 GNN for node classification and clustering for community detection
+Node classification using Kipf's semisupervised classification algorithm.
+
 In this project I have employed the gumbel softmax
-approach to graph network clustering. The experimental
-findings on specific graph datasets are used to compare with
+approach to graph network clustering. 
+
+The experimental findings on specific graph datasets are used to compare with
 spectral clustering. We do a series of experiments on our
 graph clustering algorithm, using dataset: Zachary karate
 club.
 Graph clustering, aiming to partition a graph into several
 densely connected disjoint communities or groups.
+
 I. INTRODUCTION
 Depending on how well the nodes of the graph are
 connected, we detect the community structure in the
@@ -19,6 +23,7 @@ Here, we will be using gumbel sortmax approach to select
 and extract the features for the Graph neural network to
 detect community structure in the graph datasets using deep
 learning approach.
+
 II. BACKGROUND AND RELATED WORK
 A. Community Detection Algorithms
 The algorithm proposed starts with all nodes as individual
@@ -69,6 +74,7 @@ represents the cluster group.
 Using the gumbel softmax function and the method
 proposed, we find the community cluster of the graph dataset
 nodes.
+
 IV. EXPERIMENT RESULTS
 A. Datasets
 1) Human Social Networks: Human social networks are
